@@ -9,5 +9,6 @@ h2 {
 
 p {
     color: brown;
-    text-align: center;
+    text-align: left;
+    font-family: verdana;
 }
