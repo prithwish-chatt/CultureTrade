@@ -1,14 +1,18 @@
 body {
-    background-color: lightsalmon;
+    background-color: rgb(253, 246, 238);
   }
 
 h2 {
-    color: burlywood;
+    color: rgb(201, 127, 30);
     text-align: center;
 }
 
 p {
-    color: brown;
+    color: rgb(161, 89, 89);
     text-align: left;
     font-family: verdana;
+}
+
+img {
+    text-align: center;
 }
