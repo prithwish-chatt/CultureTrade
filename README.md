@@ -12,18 +12,23 @@ Here are some useful commands you might need while using GitHub
 git clone <repository link>
 
 This is a one time command to make a copy of our repository into your computer
+
 git add .
 
 This is to add any files that the repository isn't filing into the repository's radar. Make sure to do this every time
+
 git commit -m "enter message here"
 
 This is how you can put a message to say why you did what you did. Please do this every time you make changes.
+
 git pull
 
 This is to pull all of the changes that have happened ever since the last time you pulled changes. Please do this every time you sit down to do some work
+
 git push origin <branch name>
 
 This is to push any of your changes into the branch. Do this whenever you are done with something or done for the day with your code.
+
 git status
 
 This is to check the status of all of the documents and if they are added or not. Please do this every time.
