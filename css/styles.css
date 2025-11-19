@@ -2,27 +2,17 @@ body {
     background-color: rgb(253, 246, 238);
   }
 
-h2 {
-    color: rgb(201, 127, 30);
-    text-align: center;
-    font-size: 45px;
-    font-family: "garamond";
-}
-
-p {
-    color: rgb(161, 89, 89);
-    text-align: left;
-    font-family: "georgia";
-    font-size: 16px;
-    line-height: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-
-}
 
 .myDiv {
     border: 5px outset rgb(158, 150, 140);
     background-color: rgb(253, 246, 238);
     text-align: center;
 }
+
+section {
+    background-image: url("WorldMapBackGround.png");
+
+
+}
+
 
