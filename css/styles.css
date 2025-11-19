@@ -6,6 +6,7 @@ body {
 .myDiv {
     border: 5px outset rgb(158, 150, 140);
     background-color: rgb(253, 246, 238);
+    font-family: sans-serif;
     text-align: center;
 }
 h2{
