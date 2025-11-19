@@ -6,13 +6,15 @@ h2 {
     color: rgb(201, 127, 30);
     text-align: center;
     font-size: 45px;
+    font-family: "garamond";
 }
 
 p {
     color: rgb(161, 89, 89);
     text-align: left;
-    font-family: verdana;
-    font-size: 15px;
+    font-family: "georgia";
+    font-size: 16px;
+    line-height: 40px;
     padding-left: 40px;
     padding-right: 40px;
 
