@@ -16,6 +16,14 @@ h2{
     font-size: 45px;
 
 }
+
+label {
+    color: rgb(161, 89, 89);
+    text-align: left;
+    font-family: verdana;
+    font-size: 15px;
+
+}
 p{
     color: rgb(161, 89, 89);
     text-align: left;
@@ -26,5 +34,11 @@ p{
 
 }
 
+a:hover {
+    background-color: #ddd;
 
+  }
 
+e {
+    background-image: url(css/WorldMapBackGround.png);
+}
