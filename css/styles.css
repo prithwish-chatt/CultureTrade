@@ -39,6 +39,20 @@ a:hover {
 
   }
 
-e {
+.e {
     background-image: url(css/WorldMapBackGround.png);
+}
+
+.section1 {
+    background-image: url('WorldMapBackGround.png'); /* Specify the image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 700px; /* Set a height for the section to make the background visible */
+    display: flex; /* Example: for centering content */
+    flex-direction: column; /* Example: for centering content */
+    justify-content: center; /* Example: for centering content */
+    align-items: center; /* Example: for centering content */
+    color: white; /* Example: for text visibility on a dark background */
+    text-align: center; /* Example: for text alignment */
 }
