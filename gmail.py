@@ -15,7 +15,7 @@ try:
     #    print(p.get_text())
 
     username = soup.find("Username")
-    print(username)
+    password = soup.find("Password")
 
     # Example: Find a specific element by ID
     #specific_div = soup.find('div', id='my_data_section')
