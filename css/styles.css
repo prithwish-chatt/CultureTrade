@@ -25,7 +25,7 @@ label {
 
 }
 p{
-    color: rgb(161, 89, 89);
+    color: rgb(71, 53, 36);
     text-align: left;
     font-family: verdana;
     font-size: 15px;
@@ -35,7 +35,7 @@ p{
 }
 
 a:hover {
-    background-color: #ddd;
+    background-color: rgb(219, 201, 198);
 
   }
 
