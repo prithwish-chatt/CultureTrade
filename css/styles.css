@@ -63,6 +63,8 @@ a:hover {
     align-items: center; 
     font-family: verdana;   
     justify-content: center; 
+    text-align: center; 
+
 
   }
   
@@ -74,6 +76,8 @@ a:hover {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+
+
   }
   
   /* Change the color of links on hover */
@@ -84,6 +88,6 @@ a:hover {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: rgb(205, 185, 182);
+    background-color: rgb(188, 159, 155);
     color: white;
   }
