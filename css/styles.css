@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 246, 238);
+    
   }
 
 
@@ -14,6 +15,7 @@ h2{
     color: rgb(201, 127, 30);
     text-align: center;
     font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -47,6 +49,7 @@ a:hover {
     background-position: center; 
     background-repeat: no-repeat; 
     height: 700px; 
+    width: 1250px;
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
