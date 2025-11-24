@@ -80,7 +80,10 @@ a:hover {
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(239, 221, 228);
-    color: black;
+    color: rgb(117, 101, 101);
+    font-size: 19px;
+    padding: 12.5px 16px;
+
   }
   
   /* Add a color to the active/current link */
