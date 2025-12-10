@@ -1,8 +1,6 @@
 body {
-    background-color: rgb(255, 255, 255);
-    
-  }
-
+    background-color: rgb(253, 246, 238);
+}
 
 .myDiv {
     border: 5px outset rgb(255, 255, 255);
@@ -10,13 +8,11 @@ body {
     font-family: sans-serif;
     text-align: center;
 }
-h2{
 
     color: rgb(101, 84, 73);
     text-align: center;
     font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 label {
@@ -24,67 +20,78 @@ label {
     text-align: left;
     font-family: verdana;
     font-size: 15px;
-
 }
-p{
+
+p {
     color: rgb(71, 53, 36);
     text-align: left;
     font-family: verdana;
     font-size: 15px;
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
 a:hover {
     background-color: rgb(219, 201, 198);
-
-  }
-
-
+}
 
 .section1 {
-    background-image: url('WorldMapBackGround.png'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 700px; 
+    background-image: url('WorldMapBackGround.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
     width: 1250px;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
-    text-align: center; 
+    text-align: center;
+}
+
+.section2 {
+    background-image: url('WorldMapBackGround.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: right;
 }
 
 .topnav {
     background-color: rgb(219, 201, 198);
     overflow: hidden;
-    align-items: center; 
-    font-family: verdana;   
-    justify-content: center; 
-    text-align: center; 
+    align-items: center;
+    font-family: verdana;
+    justify-content: center;
+    text-align: center;
+}
 
-
-  }
-  
-  .topnav a {
+.topnav a {
     float: left;
     color: rgb(101, 84, 73);
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
     font-size: 17px;
+b
 
-
+  }
+  .topnav main{
+    
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: 
-    rgb(253, 246, 238);
-    color: rgb(101, 84, 73);
+    background-color: rgb(239, 221, 228);
+    color: rgb(117, 101, 101);
     font-size: 19px;
     padding: 12.5px 16px;
 
