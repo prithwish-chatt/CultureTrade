@@ -5,7 +5,7 @@ body {
 .myDiv {
     border: 5px outset rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    font-family: sans-serif;
+    font-family: 'EB Garamond', Garamond, serif;
     text-align: center;
 }
 h2{
@@ -18,7 +18,7 @@ h2{
 label {
     color: rgb(161, 89, 89);
     text-align: left;
-    font-family: verdana;
+    font-family: 'EB Garamond', Garamond, serif;
     font-size: 15px;
 }
 
@@ -69,7 +69,7 @@ a:hover {
     background-color: rgb(219, 201, 198);
     overflow: hidden;
     align-items: center;
-    font-family: verdana;
+    font-family: 'EB Garamond', Garamond, serif;
     justify-content: center;
     text-align: center;
 }
