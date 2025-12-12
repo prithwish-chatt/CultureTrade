@@ -12,7 +12,7 @@ h2{
     color: rgb(101, 84, 73);
     text-align: center;
     font-size: 45px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'EB Garamond', Garamond, serif;
 }
 
 label {
@@ -25,7 +25,7 @@ label {
 p {
     color: rgb(71, 53, 36);
     text-align: left;
-    font-family: verdana;
+    font-family: 'EB Garamond', Garamond, serif;
     font-size: 15px;
     padding-left: 40px;
     padding-right: 40px;
