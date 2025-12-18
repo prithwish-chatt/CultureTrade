@@ -47,7 +47,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     color: white;
-    text-align: center;
+    text-align: right;
 }
 
 .section2 {
@@ -58,6 +58,20 @@ a:hover {
     height: 700px;
     width: 1250px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: right;
+}
+.section3 {
+    background-image: url('WorldMapBackGround.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 620px;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -101,4 +115,23 @@ a:hover {
   .topnav a.active {
     background-color: rgb(188, 159, 155);
     color: white;
+  }
+
+  .horizontal-menu {
+    display: flex;       /* Aligns children (li) in a row */
+    list-style: none;    /* Removes bullets */
+    padding: 0;          /* Removes default padding */
+    margin: 0;           /* Removes default margin */
+    gap: 20px;           /* Adds space between items */
+  }
+
+  .horizontal-menu li {
+    display: inline-block; /* Makes list items flow horizontally */
+    margin-right: 20px;    /* Adds space between items */
+  }
+  
+  .horizontal-menu {
+      list-style-type: none; /* Removes bullets */
+      padding: 0;
+      margin: 0;
   }

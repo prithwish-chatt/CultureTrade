@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>CultureTrade</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <base target="_top">
+	<base target="_top">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -25,30 +24,18 @@
 		}
 		.leaflet-container {
 			height: 700px;
-			width: 625px;
+			width: 1250px;
 			max-width: 100%;
 			max-height: 100%;
 
 		}
 	</style>
-    
 
+	
 </head>
-
 <body>
 
-    
-    <div class="topnav">
-        <a href="main.html"><img src="logo.png" width="45" height="45"></a>
-        <a href="backstory.html">Back Story</a>
-        <a class="active" href="signuplogin.html">Sign up/Login</a>
-        <a href="about.html">About us</a>
-        <a href="reviews.html">Our Reviews</a>
-      </div>
-<ul class="horizontal-menu">
-        <li>
-<div id="map" style="width: 650px; height: 700px;"></div>
-
+<div id="map" style="width: 1250px; height: 700px;"></div>
 <script>
 
 	const map = L.map('map').setView([37.5, -130], 5);
@@ -93,30 +80,8 @@
     
 
 </script>
-</li>
-<li>
-    <datalist id="list-of-UTC">
-        <option value="UTC-5"></option>
-        <option value="UTC-6"></option>
-        <option value="UTC-7"></option>
-        <option value="UTC-8"></option>
-    </datalist>
-    <section class="section3">
-        <h2>New Draft</h2>
 
 
-        <form action="/mail.html">
-            <label for="Your Time Zone">Your time zone: </label>
-            <input type="text" name="DropList" id="DropList" list="list-of-UTC"><br><br>
-            <label for="Reciever Time Zone">Reciever time zone: </label>
-            <input type="text" name="DropList" id="DropList" list="list-of-UTC"><br><br>
-            <label for="ConfirmPassword">What do you want to send? </label>
-            <input type="text" id="content" name="content"><br><br>
-            <input type="image" src="SubmitButton.png" alt="Submit" width="150" height="55" style="margin-right: 85px;">
-        </form>
-        
-    </section>
-</li>
-</ul>
 
 </body>
+</html>
