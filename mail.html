@@ -51,7 +51,7 @@
 
 <script>
 
-	const map = L.map('map').setView([20, 10], 5);
+	const map = L.map('map').setView([20, 10], .5);
 
 	const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
@@ -70,7 +70,7 @@
 		//radius: 500
 	//}).addTo(map).bindPopup('test circle.');
 
-	const polygon = L.polygon([
+	const est = L.polygon([
 		[84.897147, -87.1875],
         [64.320872, -87.1875],
 		[62.512318, -90.966797],
@@ -107,6 +107,39 @@
 
     }).addTo(map).bindPopup('Eastern time zone.');
 
+    const cst = L.polygon([
+		[84.897147, -87.1875],
+        [64.320872, -87.1875],
+		[62.512318, -90.966797],
+		[57.160078, -91.010742],
+        [47.813155, -89.296875],
+        [46.54375, -90.32959],
+        [45.058001, -87.583008],
+        [41.705729, -86.923828],
+        [38.23818, -87.824707],
+        [30.297018, -88.505859],
+        [21.698265, -85.429688],
+        [-85.513398, -85.78125],
+        [-85.513398, -101.953125],
+        [18.646245, -103.886719],
+        [19.659832, -100.788086],
+        [29.53523, -101.425781],
+        [39.909736, -102.017872],
+        [44.684277, -100.479786],
+        [48.864715, -104.150391],
+        [48.922499, -109.863281],
+        [59.910976, -110.039063],
+        [59.866883, -101.99707],
+        [64.148952, -101.821289],
+        [69.794136, -100.678711],
+        [79.560546, -107.753906],
+        [84.897147, -107.753906]
+
+        ], {
+		color: 'blue',
+		fillOpacity: 0.1,
+
+    }).addTo(map).bindPopup('Central time zone.');
 
 	const popup = L.popup()
 		.setLatLng([51.513, -0.09])
@@ -127,9 +160,9 @@
 </script>
 </li>
 <li>
-    <datalist id="list-of-UTC">
-        <option value="UTC-5"></option>
-        <option value="UTC-6"></option>
+    <datalist id="list-of-time zones">
+        <option value="EST"></option>
+        <option value="CST"></option>
         <option value="UTC-7"></option>
         <option value="UTC-8"></option>
     </datalist>
