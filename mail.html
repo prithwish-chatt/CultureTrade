@@ -141,13 +141,36 @@
 
     }).addTo(map).bindPopup('Central time zone.');
 
-	const popup = L.popup()
-		.setLatLng([51.513, -0.09])
-		.setContent('I am a standalone popup.')
-		.openOn(map);
+    const mst = L.polygon([
+        [-85.513398, -101.953125],
+        [18.646245, -103.886719],
+        [19.659832, -100.788086],
+        [29.53523, -101.425781],
+        [39.909736, -102.017872],
+        [44.684277, -100.479786],
+        [48.864715, -104.150391],
+        [48.922499, -109.863281],
+        [59.910976, -110.039063],
+        [59.866883, -101.99707],
+        [64.148952, -101.821289],
+        [69.794136, -100.678711],
+        [79.560546, -107.753906],
+        [84.897147, -107.753906],
+        [84.897147, -123.398438],
+
+        ], {
+		color: 'green',
+		fillOpacity: 0.1,
+
+    }).addTo(map).bindPopup('Mountain time zone.');
+
+	//const popup = L.popup()
+	//	.setLatLng([51.513, -0.09])
+	//	.setContent('I am a standalone popup.')
+	//	.openOn(map);
 
 	function onMapClick(e) {
-		popup
+		L.popup()
 			.setLatLng(e.latlng)
 			.setContent(`You clicked the map at ${e.latlng.toString()}`)
 			.openOn(map);
@@ -160,7 +183,7 @@
 </script>
 </li>
 <li>
-    <datalist id="list-of-time zones">
+    <datalist id="list-of-time-zones">
         <option value="EST"></option>
         <option value="CST"></option>
         <option value="UTC-7"></option>
@@ -172,9 +195,9 @@
 
         <form action="/mail.html">
             <label for="Your Time Zone">Your time zone: </label>
-            <input type="text" name="DropList" id="DropList" list="list-of-UTC"><br><br>
+            <input type="text" name="DropList" id="DropList" list="list-of-time-zones"><br><br>
             <label for="Reciever Time Zone">Reciever time zone: </label>
-            <input type="text" name="DropList" id="DropList" list="list-of-UTC"><br><br>
+            <input type="text" name="DropList" id="DropList" list="list-of-time-zones"><br><br>
             <label for="ConfirmPassword">What do you want to send? </label>
             <input type="text" id="content" name="content"><br><br>
             <input type="image" src="SubmitButton.png" alt="Submit" width="150" height="55" style="margin-right: 85px;">
