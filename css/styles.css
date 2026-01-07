@@ -5,27 +5,27 @@ body {
 .myDiv {
     border: 5px outset rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    font-family: sans-serif;
+    font-family: 'EB Garamond', Garamond, serif;
     text-align: center;
 }
 h2{
     color: rgb(101, 84, 73);
     text-align: center;
     font-size: 45px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'EB Garamond', Garamond, serif;
 }
 
 label {
     color: rgb(161, 89, 89);
     text-align: left;
-    font-family: verdana;
+    font-family: 'EB Garamond', Garamond, serif;
     font-size: 15px;
 }
 
 p {
     color: rgb(71, 53, 36);
     text-align: left;
-    font-family: verdana;
+    font-family: 'EB Garamond', Garamond, serif;
     font-size: 15px;
     padding-left: 40px;
     padding-right: 40px;
@@ -47,11 +47,11 @@ a:hover {
     justify-content: center;
     align-items: center;
     color: white;
-    text-align: center;
+    text-align: right;
 }
 
 .section2 {
-    background-image: url('WorldMapBackGround.png');
+    background-image: url('Copy\ of\ Culture\ Trade\ Design\ Layout\ \(2\).png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,23 +64,47 @@ a:hover {
     color: white;
     text-align: right;
 }
+.section3 {
+    background-image: url('WorldMapBackGround.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 600px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: right;
+}
 
 .topnav {
     background-color: rgb(219, 201, 198);
     overflow: hidden;
     align-items: center;
+<<<<<<< HEAD
     font-family: Georgia;
+=======
+    font-family: 'EB Garamond', Garamond, serif;
+>>>>>>> 85b8ad83f06f7c512c7ef32873c395d10c684907
     justify-content: center;
     text-align: center;
+    display: flex;
+   
 }
 
 .topnav a {
     float: left;
     color: rgb(101, 84, 73);
     text-align: center;
-    padding: 12px 16px;
+    padding: 11px 19px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 27px;
+    align-items: center;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
 
   }
 
@@ -89,13 +113,29 @@ a:hover {
   .topnav a:hover {
     background-color: rgb(239, 221, 228);
     color: rgb(117, 101, 101);
-    font-size: 19px;
-    padding: 12.5px 16px;
 
   }
   
-  /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: rgb(219, 201, 198);
-    color: rgb(101, 84, 73);
+    background-color: rgb(188, 159, 155);
+    color: white;
+  }
+
+  .horizontal-menu {
+    display: flex;       /* Aligns children (li) in a row */
+    list-style: none;    /* Removes bullets */
+    padding: 0;          /* Removes default padding */
+    margin: 0;           /* Removes default margin */
+    gap: 20px;           /* Adds space between items */
+  }
+
+  .horizontal-menu li {
+    display: inline-block; /* Makes list items flow horizontally */
+    margin-right: 20px;    /* Adds space between items */
+  }
+  
+  .horizontal-menu {
+      list-style-type: none; /* Removes bullets */
+      padding: 0;
+      margin: 0;
   }
