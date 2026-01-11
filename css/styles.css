@@ -83,7 +83,11 @@ a:hover {
     background-color: rgb(219, 201, 198);
     overflow: hidden;
     align-items: center;
+<<<<<<< HEAD
+    font-family: Georgia;
+=======
     font-family: 'EB Garamond', Garamond, serif;
+>>>>>>> 85b8ad83f06f7c512c7ef32873c395d10c684907
     justify-content: center;
     text-align: center;
     display: flex;
