@@ -179,18 +179,47 @@
                     [69.354504, -118.696289]
 
 
-
-
-
-
-
-
                 ], {
                     color: 'yellow',
                     fillOpacity: 0.1,
 
                 }).addTo(map).bindPopup('Pacific Time.');
 
+
+
+                const akst = L.polygon([
+
+
+                    [84.885408, -149.216309],
+                    [84.775866, -185.44921],
+                    [68.225958, -171.5625],
+                    [50.289339, -174.023437],
+                    [59.288332, -140.80078],
+
+
+                ], {
+                    color: 'orange',
+                    fillOpacity: 0.1,
+
+                }).addTo(map).bindPopup('Alaskan Time.');
+
+
+                const hst = L.polygon([
+
+                    [58.825118, -140.405273],
+                    [48.224673, -126.210938],
+                    [7.188101, -114.082031],
+                    [-67.875541, -109.335938],
+                    [-68.911005, -167.34375],
+                    [49.037868, -174.199219]
+
+
+
+                ], {
+                    color: 'purple',
+                    fillOpacity: 0.1,
+
+                }).addTo(map).bindPopup('Hawaii-Aleutian.');
 
                 //const popup = L.popup()
                 //	.setLatLng([51.513, -0.09])
@@ -213,6 +242,8 @@
         <option value="CST"></option>
         <option value="MST"></option>
         <option value="PST"></option>
+        <option value="AKST"></option>
+        <option value="HST"></option>
     </datalist>
             <section class="section3">
                 <h2>New Draft</h2>
