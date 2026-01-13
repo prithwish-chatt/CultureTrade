@@ -211,25 +211,34 @@
             <datalist id="list-of-time-zones">
         <option value="EST"></option>
         <option value="CST"></option>
-        <option value="UTC-7"></option>
-        <option value="UTC-8"></option>
+        <option value="MST"></option>
+        <option value="PST"></option>
     </datalist>
             <section class="section3">
                 <h2>New Draft</h2>
 
 
-        <form action="/mail.html">
-            <label for="To Reciever">Reciever Email: </label>
-            <input type="text" id="content" name="content" size="20"><br><br>
-            <label for="Your Time Zone">Your time zone: </label>
-            <input type="text" name="DropList" id="DropList" list="list-of-time-zones"><br><br>
-            <label for="Reciever Time Zone">Reciever time zone: </label>
-            <input type="text" name="DropList" id="DropList" list="list-of-time-zones"><br><br>
-            <label for="ConfirmPassword">What do you want to send? </label>
-            <input type="text" id="content" name="content" size="20" style="height:90px"><br><br> 
-            <input type="image" src="SubmitButton.png" alt="Submit" width="150" height="55" style="margin-right: 85px;">
+        <form action="https://script.google.com/macros/s/AKfycbwgJKSf7yyKi6WQ13k6VbWbXac21PiWrg5Wk8aePT8a48-4nNfPwJazvntMCvavEEXPqg/exec" method="POST" id="mails">
+            <label>Reciever Email: </label>
+            <input type="email" id="content" name="recipient" size="20" required><br><br>
+
+            <label>Your time zone: </label>
+            <input type="text" name="senderTZ" id="DropList" list="list-of-time-zones"><br><br>
+
+            <label>Reciever time zone: </label>
+            <input type="text" name="recieverTZ" id="DropList" list="list-of-time-zones"><br><br>
+
+            <label>What do you want to send? </label>
+            <textarea type="text" id="content" name="body" rows="5" cols="20"></textarea><br><br> 
+
+            <input type="image" src="SubmitButton.png" alt="Submit" width="150" height="55" style="margin-right: 85px;" >
         </form>
         
+
+
+    
+
+
     </section>
 </li>
 </ul>
