@@ -83,11 +83,8 @@ a:hover {
     background-color: rgb(219, 201, 198);
     overflow: hidden;
     align-items: center;
-<<<<<<< HEAD
     font-family: Georgia;
-=======
     font-family: 'EB Garamond', Garamond, serif;
->>>>>>> 85b8ad83f06f7c512c7ef32873c395d10c684907
     justify-content: center;
     text-align: center;
     display: flex;
@@ -113,6 +110,7 @@ a:hover {
   .topnav a:hover {
     background-color: rgb(239, 221, 228);
     color: rgb(117, 101, 101);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
   }
   
